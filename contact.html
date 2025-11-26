@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato • Seu Nome</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Warley Nunes</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="skills.html">Habilidades</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="contact.html" class="active">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="contact">
+      <h1>Contato</h1>
+      <p>Vamos conversar! Me encontre em:</p>
+      <ul>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/seu-usuario">Warley Nunes</a></li>
+        <li>Email: <a href="mailto:seu.email@dominio.com">warleynunes.santos07@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/SEU-USUARIO">Ogwarley7</a></li>
+      </ul>
+
+      <h2>Envie uma mensagem</h2>
+      <form id="contactForm">
+        <label>Nome<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Mensagem<textarea name="message" rows="5" required></textarea></label>
+        <p><button class="btn" type="submit">Enviar</button></p>
+        <p id="formResult" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Warley Nunes</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
